@@ -1,0 +1,19 @@
+.env
+.env.*
+!.env.example
+*.key
+*.secret
+secrets/
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/probe/
+.DS_Store
+.idea/
+.vscode/.pytest_cache/
+*.log
+
+# Local archives and synthetic test data
+murmuration-pilot-logs.zip
+data/raw/*dryrun*.jsonl
